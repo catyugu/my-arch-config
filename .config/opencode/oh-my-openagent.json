@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "max"
+    },
+    "librarian": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "medium"
+    },
+    "hephaestus": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "medium"
+    },
+    "oracle": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "high"
+    },
+    "explore": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "multimodal-looker": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "medium"
+    },
+    "prometheus": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "max"
+    },
+    "metis": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "max"
+    },
+    "momus": {
+      "model": "opencode/big-pickle",
+      "variant": "xhigh"
+    },
+    "atlas": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "sisyphus-junior": {
+      "model": "minimax/MiniMax-M2.7"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "ultrabrain": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "deep": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "medium"
+    },
+    "artistry": {
+      "model": "minimax/MiniMax-M2.7",
+      "variant": "high"
+    },
+    "quick": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "unspecified-low": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "unspecified-high": {
+      "model": "minimax/MiniMax-M2.7"
+    },
+    "writing": {
+      "model": "minimax/MiniMax-M2.7"
+    }
+  },
+  "auto_update": true
+}

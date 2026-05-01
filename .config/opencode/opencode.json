@@ -1,0 +1,47 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "oh-my-openagent@latest"
+  ],
+  "provider": {
+    "minimax": {
+      "npm": "@ai-sdk/anthropic",
+      "options": {
+        "baseURL": "https://api.minimaxi.com/anthropic/v1",
+        "apiKey": "sk-cp-UDxaGBaiAzuWmzw5wxVkc6OLauKOczVvlS7fiy9EU7-CqRIe8VaGM5AnPp20c-WzCc4bHL1RciGRBpEmkVXrNdwb8_72pFOSbVcRefSGwo7G24CDRE3fmeQ"
+      },
+      "models": {
+        "MiniMax-M2.7": {
+          "name": "MiniMax-M2.7"
+        }
+      }
+    },
+    "sjtu": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://models.sjtu.edu.cn/api/v1",
+        "apiKey": "sk-o-Yj6W2CewrsjHRUN9GzjQ"
+      },
+      "models": {
+        "qwen3vl": {
+          "name": "Qwen3 VL"
+        },
+        "deepseek-v3.2": {
+          "name": "Deepseek V3.2"
+        },
+        "qwen3coder": {
+          "name": "Qwen3 Coder"
+        },
+        "minimax-m2.5": {
+          "name": "Minimax M2.5"
+        },
+        "deepseek-reasoner": {
+          "name": "Deepseek Reasoner"
+        },
+        "glm-5": {
+          "name": "GLM 5.0"
+        }
+      }
+    }
+  }
+}
