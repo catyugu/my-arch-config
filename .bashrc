@@ -1,10 +1,8 @@
-# ====================== 从 zsh 迁移到 bash 的通用配置 ======================
-
 # 基础别名
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# 代理配置（保留不变）
+# 代理配置
 PROXY_IP=$(ip route show | grep -i default | awk '{ print $3}')
 export ALL_PROXY="http://${PROXY_IP}:7890"
 export http_proxy="http://${PROXY_IP}:7890"
@@ -36,3 +34,7 @@ unset __conda_setup
 # GHCup (Haskell)
 [ -f "/home/catyugu/.ghcup/env" ] && . "/home/catyugu/.ghcup/env"
 alias config='/usr/bin/git --git-dir=/home/catyugu/.cfg/ --work-tree=/home/catyugu'
+
+if [ $PWD = $USERPROFILE ]; then
+  cd ~
+fi
