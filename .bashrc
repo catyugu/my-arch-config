@@ -18,6 +18,8 @@ export NVM_DIR="$HOME/.nvm"
 # Bun 路径
 export PATH="/home/catyugu/.bun/bin:$PATH"
 
+export SJTU_API_KEY="sk-o-Yj6W2CewrsjHRUN9GzjQ"
+
 # Conda (Miniconda3)
 __conda_setup="$('/home/catyugu/miniconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
 if [ $? -eq 0 ]; then
